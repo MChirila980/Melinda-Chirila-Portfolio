@@ -11,7 +11,6 @@
    ========================================================================== */
 
 html {
-    color: #222;
     font-size: 1em;
     line-height: 1.4;
 }
@@ -25,6 +24,9 @@ html {
  *
  * Customize the background color to match your design.
  */
+
+
+/* padding */
 
 ::-moz-selection {
     background: #b3d4fc;
@@ -97,17 +99,57 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+ /* Header */
 
 
+ header{
+    width: 100%; 
+    color: rgb(19, 19, 19);
+    background: url('https://images.pexels.com/photos/708764/pexels-photo-708764.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    height: 600px;
+    background-size: cover;
+}
 
+header h1 {
+    text-align: center;
+    font-size: calc(32px + 3vw);
+    color: orangered;
+}
 
+html {
+    background: white;
+    background-size: cover;
+}
 
+article {
+    background: rgba(255, 255, 255, 0.3);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+    color: #000000;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2vw;
+    border-radius: 2vw;
+}
 
+nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    position: sticky;
+    top: 0;
+    background-color: rgba(255, 255, 255, 0.9);
+}
 
-
-
-
-
+nav a {
+    text-decoration: none;
+    color: orangered;
+    font-size: 22px;
+    text-align: center;
+    padding: 20px;
+    border: 2px solid orangered;
+    margin: 10px;
+}
 
 
 
