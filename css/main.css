@@ -105,7 +105,7 @@ textarea {
  header{
     width: 100%; 
     color: rgb(19, 19, 19);
-    background: url('https://images.pexels.com/photos/708764/pexels-photo-708764.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+    background: url('https://images.pexels.com/photos/97077/pexels-photo-97077.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
     height: 600px;
@@ -115,7 +115,12 @@ textarea {
 header h1 {
     text-align: center;
     font-size: calc(32px + 3vw);
-    color: orangered;
+    color: black;
+    padding: 20px;
+    text-shadow: 0 0 10px rgb(255, 0, 212);
+    background-color: rgba(255, 255, 255, 0.5);
+    margin: 50px 24vw;
+    border-radius: 20px;
 }
 
 html {
@@ -124,13 +129,18 @@ html {
 }
 
 article {
-    background: rgba(255, 255, 255, 0.3);
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
     color: #000000;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 2vw;
-    border-radius: 2vw;
+    padding: 4vw;
+    border-radius: 4vw;
+}
+
+article section {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+    padding: 20px;
+    margin: 40px 20px;
+    border-radius: 10px;
 }
 
 nav {
@@ -143,14 +153,24 @@ nav {
 
 nav a {
     text-decoration: none;
-    color: orangered;
+    color: rgb(4, 23, 187);
     font-size: 22px;
     text-align: center;
     padding: 20px;
-    border: 2px solid orangered;
+    border: 2px solid rgb(233, 7, 157);
     margin: 10px;
 }
 
+footer {
+    margin-top: 20px;
+    padding: 2px 20px;
+    text-align: center;
+    background-color: rgb(228, 21, 117);
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+    letter-spacing: 5px;
+}
+/*  */
 
 
 
