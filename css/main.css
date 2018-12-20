@@ -70,6 +70,7 @@ video {
  * Remove default fieldset styles.
  */
 
+ 
 fieldset {
     border: 0;
     margin: 0;
@@ -107,7 +108,7 @@ textarea {
     color: rgb(19, 19, 19);
     background: url('https://images.pexels.com/photos/97077/pexels-photo-97077.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
     display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
     height: 600px;
     background-size: cover;
 }
@@ -137,7 +138,8 @@ article {
 }
 
 article section {
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(139,0,139,1));
+    /* box-shadow: 0 0 20px rgba(0, 0, 0, 0.4); */
     padding: 20px;
     margin: 40px 20px;
     border-radius: 10px;
@@ -146,7 +148,7 @@ article section {
 nav {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    position: sticky;
+
     top: 0;
     background-color: rgba(255, 255, 255, 0.9);
 }
